@@ -158,10 +158,16 @@ async function setupAndStart() {
 
 
 /** On click of start / restart button, set up game. */
-$('#start').on('click', function(){
-    setupAndStart()
+$('#start').on('click', async function(){
+    await setupAndStart()
+    $(this).text('Reset')
+    $(this).attr('id','reset')
+    
 })
 
+$('body').on('click', '#reset', function(){
+    location.reload();
+})
 // TODO
 
 /** On page load, add event handler for clicking clues */

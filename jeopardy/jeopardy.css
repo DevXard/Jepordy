@@ -99,3 +99,13 @@ td {
 .start {
   font-weight: bolder;
 }
+
+#reset{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 2em;
+}
+
+
+/* eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRleHRpc3MiLCJpYXQiOjE2MDYyMzA1Mjl9.58A07GRz81O4mJxQf_gv1jAr0Br4W5rs3v9UqItXdaM */
